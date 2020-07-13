@@ -1,0 +1,42 @@
+.tasks__item {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.task__checkbox {
+    position: absolute;
+    top: -4.8px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.task__descr {
+    padding-left: 35px;
+    cursor: pointer;
+}
+
+.task__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #eaf5fc; 
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.task__close:hover {
+    font-size: 24px;
+}
+
+.task__close:active {
+    opacity: 0.5;
+}

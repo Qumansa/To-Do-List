@@ -1,0 +1,7 @@
+.app {
+    margin: 50px auto 0 auto;
+    max-width: 700px;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
